@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+
+#nav {
+    display: flex;
+    margin-top: 2rem;
+    border-right: grey 1px solid;
+    padding-right: 1rem;
+    .nav-item {
+        .nav-link {
+            color: black;
+            &.active {
+                color: white;
+                background-color: #EA6464;
+            }
+        }
+
+    }
+    
+}

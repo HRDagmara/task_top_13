@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/bootstrap";
+
+#carousel {
+  height: 450px;
+  .item {
+    height: 450px;
+    object-fit: contain;
+    img {
+      height: 450px;
+    }
+  }
+  .caption {
+    text-align: left;
+  }
+}
+
